@@ -112,7 +112,7 @@ volatile byte eisclockinternal = 1; // eis clock source
 volatile boolean internalclock = true; // eis clock source
 volatile unsigned long externalclockvalue = 0;           //EIS ext clock value
 volatile byte  eisintgain;
-volatile byte  EisVPPlevel;
+volatile byte  EisVPPlevel;                   // Defines voltage output level for DDS
 volatile bool eison = false;
 int led = 13;
 
